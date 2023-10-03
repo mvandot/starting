@@ -1,59 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&family=Libre+Franklin:ital,wght@0,100;0,200;0,400;1,100&family=Roboto:wght@100;300;400&display=swap');
 
-* {
-  font-family: 'Inter', sans-serif;
-  font-family: 'Libre Franklin', sans-serif;
-  font-family: 'Roboto', sans-serif;
-}
-
-h1, h3 {
-  font-family: 'Libre Franklin', sans-serif;
-}
-
-h2 {
-  font-family: Inter, sans-serif;
-}
-
-h3 {
-  text-decoration: underline;
-}
-
 body {
-  width: 75%;
-  margin: auto;
-}
-
-p{
-  font-family: Inter, sans-serif;
-  line-height: 22px;
-}
-
-ul li {
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
-h1#main-title {
-  margin-left: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 0 10%;
 }
 
 .section {
   border: 2px solid lightslategray;
-  width: 1000px;
-  height: 500px;
-  padding: 25px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px auto;
 }
 
+/* Colors */
 .color-pallete {
   width: 100%;
 }
 
 .color-box {
   width: 19.5%;
-  height: 350px;
+  min-height: 350px;
   margin: 20px auto;
-  text-indent: 5%;
+  text-align: center;
   display: inline-block;
 }
 
@@ -82,95 +49,48 @@ h1#main-title {
   color: grey;
 }
 
-
 .color-description p {
   margin-bottom: -0.7em;
 }
 
-
-
-
-#fonts {
+/* Fonts */
+/* Inner element, only two divs in a row */
+.font-description { 
+  width: 45%;
   display: inline-block;
 }
 
-#inter {
-  float: left;
-  margin-right: 2em;
-  margin-bottom: 60px;
-  width: 350px;
-  height: 170px;
-  font-size: 20px;
+.inter {
+  font-family: 'Inter';
 }
 
-#libre-franclin {
-  width: 350px;
-  height: 170px;
-  font-size: 20px;
-}
-
-#roboto {
-  float: right;
-  width: 350px;
-  height: 170px;
-  font-size: 20px;
-}
-
-
-#first-inter {
-  font-weight: 100;
-  height: 24px;
-  font-family: Inter;
-}
-
-#second-inter {
-  font-style: italic;
-  height: 24px;
-  font-family: Inter;
-}
-
-#third-inter {
-  font-weight: 400;
-  height: 24px;
-  font-family: Inter;
-}
-
-#first-franclin {
-  font-weight: 100;
-  height: 24px;
+.libre-franclin {
   font-family: 'Libre Franclin';
 }
 
-#second-franclin {
-  font-style: italic;
-  height: 24px;
-  font-family: 'Libre Franclin';
-}
-
-#third-franclin {
-  font-weight: 600;
-  height: 24px;
-  font-family: 'Libre Franclin';
-}
-
-#first-roboto {
-  font-weight: 100;
-  height: 24px;
+.roboto {
   font-family: 'Roboto';
 }
 
-#second-roboto {
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.regular {
+  font-weight: 100;
+}
+
+.italic {
   font-style: italic;
-  height: 24px;
-  font-family: 'Roboto';
 }
 
-#third-roboto {
-  font-weight: 600;
-  height: 24px;
-  font-family: Roboto;
+.bold {
+  font-weight: 700;
 }
 
+
+/* Font styles */
 .style-description {
   height: 130px;
 }
