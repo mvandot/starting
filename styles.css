@@ -45,58 +45,50 @@ h1#main-title {
   margin: 20px;
 }
 
-#crimson {
+.color-pallete {
+  width: 100%;
+}
+
+.color-box {
+  width: 19.5%;
+  height: 350px;
+  margin: 20px auto;
+  text-indent: 5%;
+  display: inline-block;
+}
+
+.crimson {
   background-color: #AA706A;
-  float:left;
   color: whitesmoke;
-  width: 192px;
-  height: 350px;
-  margin-right: 10px;
-  text-indent: 5%;
 }
 
-#satin {
+.satin {
   background-color: #F4DBC9;
-  float:left;
   color: grey;
-  width: 192px;
-  height: 350px;
-  margin-right: 10px;
-  text-indent: 5%;
 }
 
-#lavender {
+.lavender {
   background-color: #BCAFBD;
-  float: left;
   color:#F9F6E4;
-  width: 192px;
-  height: 350px;
-  margin-right: 10px;
-  text-indent: 5%;
 }
 
-#linen {
+.linen {
   background-color: #F9F6E4;
-  float: right;
   color: grey;
-  width: 192px;
-  height: 350px;
-  margin-right: 10px;
-  text-indent: 5%;
 }
 
-#crepe {
+.crepe {
   background-color: #EFE4E6;
-  float: right;
   color: grey;
-  width: 192px;
-  height: 350px;
-  text-indent: 5%;
 }
+
 
 .color-description p {
   margin-bottom: -0.7em;
 }
+
+
+
 
 #fonts {
   display: inline-block;
